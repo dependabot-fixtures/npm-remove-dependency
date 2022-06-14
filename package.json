@@ -1,0 +1,22 @@
+{
+  "name": "@dependabot-fixtures/npm-remove-dependency",
+  "version": "10.0.0",
+  "description": "Test fixture that drops a transitive dependency on update",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dependabot-fixtures/npm-remove-dependency.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dependabot-fixtures/npm-remove-dependency/issues"
+  },
+  "homepage": "https://github.com/dependabot-fixtures/npm-remove-dependency#readme",
+  "dependencies": {
+    "@dependabot-fixtures/npm-transitive-dependency": "1.0.0"
+  }
+}
